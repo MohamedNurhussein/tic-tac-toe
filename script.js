@@ -33,8 +33,7 @@ function Gameboard() {
 
   return { getBoard, dropToken, checkWin, printBoard };
 }
-
-function GameController(playerOneName = "Amino", playerTwoName = "Mohammed") {
+function GameController(playerOneName = "Player 1", playerTwoName = "Player 2") {
   const board = Gameboard();
 
   const players = [
